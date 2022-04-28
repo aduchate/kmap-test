@@ -1,0 +1,42 @@
+# Compiled class file
+*.class
+build/
+out/
+
+# Log file
+*.log
+
+# MAC file
+.DS_Store
+
+# Package Files #
+*.war
+*.ear
+*.tar.gz
+*.rar
+
+#IntelliJ & eclipse files
+.project
+*.iml
+.idea
+.gradle
+.gradle/4.5.1/fileHashes/fileHashes.bin
+.gradle/4.5.1/fileHashes/fileHashes.lock
+.gradle/4.5.1/taskHistory/taskHistory.bin
+.gradle/4.5.1/taskHistory/taskHistory.lock
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/buildOutputCleanup/cache.properties
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/vcsWorkingDirs/gc.properties
+test.json
+.gradletasknamecache
+
+bin/
+misc/bin
+misc/build
+misc/out
+.classpath
+.settings
+
+# Test generated files
+src/test/resources/**/out*
